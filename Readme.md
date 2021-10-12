@@ -23,7 +23,7 @@ public class Shamir {
 }
 ```
 
-Hale's `Scheme` works with `Map<Integer, byte[]>`. I wanted to `List<String>` instead and to make this work I do this.
+Hale's `Scheme` works with `Map<Integer, byte[]>`. I wanted `List<String>` instead by doing the following:
 * Base64 encode the map `value`
 * Create string with `key` + encoded `value`. Ex. `1+xxxxxxxxx`
 * Base64 encode a second time
