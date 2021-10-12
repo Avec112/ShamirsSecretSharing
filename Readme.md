@@ -29,7 +29,7 @@ Hale's `Scheme` works with `Map<Integer, byte[]>`. I wanted `List<String>` inste
 * Base64 encode a second time
 * return the list with all shares
 
-To get the secret I just do the same the opposite way
+To get the secret I just do the opposite
 
 ## How to use (example)
 Step 1: 
