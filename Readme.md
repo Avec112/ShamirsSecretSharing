@@ -33,14 +33,14 @@ To get the secret I just do the opposite
 
 ## How to use (example)
 Step 1 - Create Shares
-* In: secret to encrypt and split
-* In: n specifies unique shares.
-* In: k specifies unique shares needed to recreate secret
-* Out: List with n unique shares
+* -> secret to encrypt and split
+* -> n specifies unique shares.
+* -> k specifies unique shares needed to recreate secret
+* <- List with n unique shares
 
 Step 2 - Recreate Secret
-* In: k unique shares
-* Out: secret
+* -> k unique shares
+* <- secret
 
 ```java
  class ShamirTest {
