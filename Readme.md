@@ -3,7 +3,7 @@
 This project is based on [Coda Hale's](https://github.com/codahale) implementation of [Shamir's Secret Sharing](https://github.com/codahale/shamir)
 
 I have wrapped and simplified the API so it better fits my needs. I also found out that I could have static methods
-for creating shares and getting the secret back. 
+for creating shares and recreate secret. 
 
 ## class Shamir
 ```java
@@ -11,7 +11,7 @@ public class Shamir {
 
     // s: secret
     // n: share count
-    // k: minimum keys to get secret
+    // k: minimum keys to recreate secret
     public static List<String> getShares(String s, int n, int k) {
         // code omitted
     }
@@ -25,7 +25,7 @@ public class Shamir {
 
 Hale's `Scheme` works with `Map<Integer, byte[]>`. I wanted `List<String>` instead by doing the following:
 * Base64 encode the map `value`
-* Create string with `key` + encoded `value`. Ex. `1+xxxxxxxxx`
+* Create string with `key` + encoded `value`. Ex. `1+tRMnJCzlIxaDFSRmM=`
 * Base64 encode a second time
 * return the list with all shares
 
