@@ -1,4 +1,5 @@
 # Shamir's Secret Sharing
+![Build Status](https://github.com/avec112/ShamirsSecretSharing/actions/workflows/maven.yml/badge.svg?branch=master)
 
 This project is based on [Coda Hale's](https://github.com/codahale) implementation of [Shamir's Secret Sharing](https://github.com/codahale/shamir)
 
