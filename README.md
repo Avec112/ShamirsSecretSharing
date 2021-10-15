@@ -1,8 +1,10 @@
 # Shamir's Secret Sharing
-![Build Status](https://github.com/avec112/ShamirsSecretSharing/actions/workflows/maven.yml/badge.svg?branch=master)
-![CodeQL](https://github.com/Avec112/ShamirsSecretSharing/actions/workflows/codeql-analysis.yml/badge.svg?branch=master)
-![GitHub](https://img.shields.io/github/license/avec112/ShamirsSecretSharing)
+![Build Status](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/Build)
+![CodeQL](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/CodeQL)
+![GitHub license](https://img.shields.io/github/license/avec112/ShamirsSecretSharing)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Avec112/ShamirsSecretSharing)
+<!-- ![GitHub tag](https://img.shields.io/github/tag/avec112/ShamirsSecretSharing) -->
+
 
 This project is based on [Coda Hale's](https://github.com/codahale) implementation of [Shamir's Secret Sharing](https://github.com/codahale/shamir)
 
