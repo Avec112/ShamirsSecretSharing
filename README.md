@@ -1,6 +1,6 @@
 # Shamir's Secret Sharing
-![Build Status](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/Build)
-![CodeQL](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/CodeQL)
+![Build Status](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/Build?logo=github)
+![CodeQL](https://img.shields.io/github/workflow/status/Avec112/ShamirsSecretSharing/CodeQL?label=CodeQL&logo=github)
 ![GitHub license](https://img.shields.io/github/license/avec112/ShamirsSecretSharing)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Avec112/ShamirsSecretSharing)
 <!-- ![GitHub tag](https://img.shields.io/github/tag/avec112/ShamirsSecretSharing) -->
