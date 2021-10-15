@@ -49,14 +49,16 @@ Step 2 - Recreate Secret
 
     @Test
     void test() {
-        String secret = "My secret"; // expected
+        String secret = "My secret";
         
         int n = 5;
         int k = 3;
-
+        
+        // Create shares
         List<String> shares = Shamir.getShares(secret, n, k); 
         System.out.println(shares); // list shares for distribution
 
+        // Bring back secret
         String actual = Shamir.getSecret(shares.get(0), shares.get(1), shares.get(2)); // provide at least k unique shares
         System.out.println(actual);
 
@@ -70,7 +72,6 @@ Example output
 [MStqZDB4NUpwRHdzenM=, MitnKzdRK3VKQlpiakU=, MytRMHJCYlIxaDFSRmM=, NCtoWEcrdk9PMDk2SlY=, NStSZFd2S3h5VVJ3dk4=]
 My secret
 ```
-**Note!** You cannot create shares for the same secret and expect the same shares since a random salt is used.
 
 ## Dependency needed
 ```xml
